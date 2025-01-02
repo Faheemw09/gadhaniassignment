@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a complete E-Commerce shopping cart system, designed for users to browse products, manage their cart, and place orders. It also includes an admin portal to manage users, products, and orders efficiently.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Frontend Features (User Portal):
 
-### `npm start`
+#### User Signup/Signin:
+- New users can register, and existing users can log in to access the platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Product Browsing:
+- View all products available in the store.
+- Search and filter functionality to find specific products quickly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Cart Management:
+- Add products to the cart.
+- View items in the cart.
+- Remove items from the cart.
 
-### `npm test`
+#### Order Summary:
+- Displays the total price, discount, and final amount.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Order Placement:
+- Users can review their cart and place orders.
 
-### `npm run build`
+### Admin Portal Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Dashboard:
+- Overview of platform metrics ( total users, products, orders).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### User Management:
+- View all registered users.
+- Track user login activity and manage user data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Product Management:
+- CRUD operations (Create, Read, Update, Delete) for products.
 
-### `npm run eject`
+#### Order Management:
+- View all orders placed by users.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend:
+- React
+- React Router
+- Ant Design (UI components)
+- Tailwind CSS (styling)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend:
+- Node.js
+- Express.js
 
-## Learn More
+### Database:
+- MongoDB
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### API:
+- Axios
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Authentication:
+- JSON Web Tokens (JWT)
 
-### Code Splitting
+## Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+1. Install Node.js and npm.
+2. Set up a MongoDB database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
